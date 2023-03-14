@@ -1,5 +1,5 @@
 # MEDIQA-CHAT-2023-NewAgeHealthWarriors
-> Our team has worked on Task A and Task B. This readme will help you understand the problem statement, repo structure, how to run the code and generate output file via notebooks and shell script.
+> Our team (NewAgeHealthWarriors) has worked on Task A and Task B. This readme will help you understand the problem statement, repo structure, how to run the code and generate output file via notebooks and shell script.
 
 ## Tasks
 - **Task A - Short Dialogue2Note Summarization**: generating a section summary (section header and content) associated with the short input conversation. Section header will be one of twenty normalized section labels provided with the training data. 
