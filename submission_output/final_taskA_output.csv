@@ -1,0 +1,128 @@
+ID,SystemOutput1,SystemOutput2
+0,GENHX,"
+The patient is a 26 y/o female who has been having low back pain for 8 years. The pain began when she fell in an ABC store. She has had physical therapy and electrical stimulation and heat treatments but the pain has been continuous at varying degrees. She had her son in August 2008 and has had back pain since then. She had a fall 4-5 days ago and the pain has worsened since then. She has seen Doctor X on January 10, 2009 and has a follow up appointment scheduled for February 10, 2009."
+1,ROS,"The patient has a rash on his upper and lower torso.  No shortness of breath, wheezing, or other associated symptoms.  There is no swelling to his lips or tongue or throat."
+2,PASTMEDICALHX,"
+            No new medical conditions or symptoms since the patient's last visit on April fifteenth two thousand five."
+3,CC,Accutane.
+4,ROS,Negative for any mental difficulties or confusion.
+5,GENHX,The patient was a baby born at 32 weeks' gestation weighing 11 ounces.  He was placed in an incubator for three weeks.  The patient had jaundice but was not given any treatment.  His birth history was normal.  There was no prior history of any abnormality.
+6,PASTSURGICAL,Noncontributory.
+7,CC,The patient is in today complaining of back pain.  The patient states that he fell down on his back.  He has had some back pain in the past.  It seems to be worse today.
+8,FAM/SOCHX,The patient lives with a roommate.  The patient is on methadone maintenance.  He is also on inhalation drugs for depression.
+9,GENHX,"
+The patient is a 57-year-old female who comes in today with complaints of bunion pain on both feet. She states that her right foot is worse than her left and that the pain has been slowly getting worse. On examination, there is deformity of the second toe and MTP joint on both feet. The patient has had surgery thirteen years ago to remove bunions, but they have been slowly coming back since then. The patient works in a hospital and is on her feet all day, and wears orthotics for some relief, but is still in a lot of pain."
+10,GENHX,"The patient was born at the Women's Hospital, 7 pounds 3 ounces.  She was a spontaneous vaginal delivery.  There were no cesarean section or appendectomy.  The patient did have a hearing test performed, which was unremarkable."
+11,FAM/SOCHX,He is a data operator for an I.T. company.  He denies any tobacco or ETOH use.
+12,DISPOSITION,The patient is going to stay with his son.
+13,FAM/SOCHX,The patient moved to the United States in 1984 from the Philippines. He has a green card. He is single and he lives in an apartment near his apartment. He finished high school and has a bachelor's degree. Denies any tobacco or alcohol use.
+14,GENHX,"The patient is a 62-year African-American male with a history of diabetes, hypertension, and stroke in the year 2002. He has had two heart attacks and had two strokes. He has a history of diabetes and hypertension. He has a history of diabetes and hypertension. He has had two strokes in the past two years. He has had numbness in his legs. He has a history of diabetes and hypertension. He has a history of diabetes and hypertension."
+15,CC,"
+            No complaints, just a follow up."
+16,ROS,"Currently has left hip pain and shoulder pain, as well as a couple of weeks' worth of leg swelling.  No problems with urination or abdominal pain.  Denies any new skin lesions on the legs from the swelling."
+17,FAM/SOCHX,The patient lives at home with both parents.  He is in a full-time public school education grade.  No special education classes.
+18,GENHX,"The patient is a 62-year-old gentleman who comes in today complaining of lightheadedness and vertigo.  He has had vertigo in the past, but he does not think it is related to anything special.  It just seems like he is having a lot of trouble keeping his balance.  Whenever he is in a sitting position, it seems like it takes awhile to get him back to normal.  When he gets up from the bed, he seems to fall down.  This seems to be worse when he gets out of bed at night. "
+19,MEDICATIONS,I am taking amoxicillin.
+20,PASTMEDICALHX,The patient is a frequent flyer with a history of bipolar disorder and anxiety. She is anemic and not on any iron supplements. She has had her tubes ligated.
+21,FAM/SOCHX,She is a nonsmoker and does not drink alcohol.  She works as a payroll representative.  Prior to that worked in the jewelry business as a chemical engineer.
+22,ASSESSMENT,"
+The patient visited the urgent care and reported to be sensitive to light and feeling nauseated. The doctor believes the patient is highly likely to have a migraine. The doctor prescribed the patient with Tylenol with codeine to help with the pain. The patient requested for a doctor's note which was granted, and was advised to take a day off from school and rest until feeling better."
+23,MEDICATIONS,Cipro and Flagyl.
+24,GENHX,The patient is a 51-year-old female who presents today complaining of right hand pain.  The patient states that her right thumb locks up and she cannot move it.  She states that she wants to see Dr. XYZ for evaluation and treatment of this.  Her primary concern is that she is unable to move her right hand.  There are no other complaints other than the right thumb locking up and locking.
+25,GENHX,"The patient is exercising regularly, eating well, and keeping her food journal updated.  She is going to Overeaters Anonymous.  Her sponsor has told her to think about some snacks that can help her with her blood sugars."
+26,FAM/SOCHX,"
+            Noncontributory."
+27,PASTSURGICAL,"Appendectomy, glaucoma surgery, gallbladder resection due to colon cancer in 1961, and a partial colon resection due to colon cancer."
+28,PASTSURGICAL,"
+            Cataract surgery on both eyes and knee replacement surgery on left knee."
+29,FAM/SOCHX,Significant for hypertension and diabetes in the family.  There is also a family history of cerebrovascular disease.
+30,GENHX,"
+The patient is a 52-year-old male who presented to the clinic for help with his heroin addiction. He reports that his whole body hurts and he feels cold. He also admits to using cocaine, and he previously abused alcohol, but now has switched to drugs. The doctor is asking about the drugs he is taking to assess the situation."
+31,FAM/SOCHX,"
+            Noncontributory."
+32,FAM/SOCHX,"His father died at the age of 50.  He had color cancer and thyroid cancer.  One of his brothers died from stomach cancer when he was 63 years old, and another brother committed suicide.  There are seven siblings."
+33,PLAN,"Reported for physical therapy, occupational therapy, and speech therapy. The patient coordinator at Siskin Rehab Hospital will give you a call within two days. The patient needs to continue on Cipro for an additional two days."
+34,FAM/SOCHX,Mother died at the age of 49 of stomach cancer. Father died at the age of 91 years of age.
+35,PASTMEDICALHX,Noncontributory.
+36,ASSESSMENT,"Significant for Sodium and Creatinine, which are normal for the most part. She has had a negative pregnancy test. She is going to have a positive EKG."
+37,GENHX,He was in the hospital today for his followup. He had a lot of back pain and decreased urine output. He had a lot of burning sensation when he went to the hospital. He had a lot of back pain and decreased urine output. He was told that it was because of kidney stones. He went to the hospital and it was said that it was infection. It started with a fever and he went to the hospital. He was given a steroid pill. It was explained to me that it does not look like that. He was given a lot of urine
+38,FAM/SOCHX,"The patient is a 54-year-old male with history of glaucoma, hypertension, dyspnea.  His mother died in her mid-80s after a long battle with Parkinson disease.  Her father died in his 80s from old age.  He had two younger brothers died in their 70ies.  Both his mother and father were deceased in their 60s.  The patient has one brother who died at age II."
+39,GENHX,"
+The patient is a 41-year-old male who was cooking in the coffee shop kitchen when hot oil splashed onto his arm, causing a burn from the elbow to the wrist on the medial aspect. He was accompanied by a friend who works with him in the coffee shop. The patient was taken to the emergency department and the doctor has determined it to be a workers' compensation for injury."
+40,DISPOSITION,Family will care for the patient at home.
+41,ASSESSMENT,The patient's white blood count is normal according to her most recent labs.  The patient states that she has been having a lot of pain over the past several days affecting her left shoulder and lower back.  She has not been taking any medications for this.
+42,PLAN,The patient states she is feeling good.  She wants to continue her home exercises at home but please take it slow.  We will also follow the diet plan.
+43,GENHX,"This is a 29-year-old white male who was stung by a wasp on his right hand and right arm.  He was seen by Dr. XYZ, but he was not available so he went to Dr. X, who was available.  The patient states that he has been stung in the past by wasps and has had a lot of swelling on his hand and arm."
+44,CC,"
+            The patient was experiencing pain and requested medication. The doctor prescribed Dilaudid of 4 M G I M, which the patient accepted. After taking the medication, the patient reported feeling much better with no bad side effects."
+45,FAM/SOCHX,The patient is a nonsmoker and does not use alcohol or use illicit drugs.
+46,FAM/SOCHX,"The patient is a smoker since she was 10 years old.  She is currently down to half a pack a day on Chantix.  Prior to that, she was smoking two to three packs of cigarettes per day."
+47,MEDICATIONS,1.  I will continue to use Flagyl intra venously.  This will be 5.5 mg q.i.h. and I will also add Levaquin q.1.
+48,ROS,"
+            NEUROLOGICAL: No difficulty in hearing, swallowing, double vision, blurred vision, headaches, or migraines. GASTROINTESTINAL: No change in bowel movements or difficulty urinating."
+49,ROS,"
+            Review of Systems: Everything appears to be normal other than what was mentioned earlier."
+50,DISPOSITION,The plan is to use Acticoat dressing daily and make sure the patient is spending at least eight hours out of the chair for pressure relief.  I will also return in a week for a reevaluation and followup.
+51,FAM/SOCHX,I will refer you to a substance abuse clinic.
+52,FAM/SOCHX,"No history of tobacco, alcohol, or illicit drug use."
+53,GENHX,"Ear pain and headache.  The headaches started approximately three weeks ago.  She went to the dentist yesterday and apparently her teeth are just fine.  However, she does have a history of sinus congestion on the left side of her face and is having some difficulty hearing.  It is better than it was before but she still wants to get it checked.  Also, she has been taking Allegra daily for sinus drainage."
+54,GENHX,The evaluation report was reviewed by my psychiatrist.
+55,GENHX,The patient is a 57-year-old female with a history of migraine headaches for the last six months.
+56,FAM/SOCHX,Mother died of lung cancer 3-4 years ago. Father has gout. Mother did not talk about her own health problems.
+57,MEDICATIONS,None.
+58,FAM/SOCHX,Noncontributory.
+59,GENHX,"
+Mr. B is a 53-year-old man who has come to the ER with his wife due to multiple medical issues. His primary complaint is pain from a hernia and pain in his lower legs. He also reports nausea, vomiting, and possible blood in the stool. His leg pain has improved with decreased tingling and numbness. He has a history of CVA, peripheral vascular disease, heart failure and multiple bowel ischemia. He is taking Coumadin for atrial fibrillation but the levels are subtherapeutic."
+60,PASTSURGICAL,"
+            She had back and shoulder surgeries after a skiing accident about three to four years ago and had her appendix removed when she was a teenager."
+61,FAM/SOCHX,"She has a history of hay fever, eczema, sinus problems, hives, and no history of melanoma or skin cancer."
+62,GENHX,"
+            The patient presents to the office for a follow up regarding her cervical spinal stenosis. She had an incident on fourth of June when she lifted many objects and experienced exacerbated symptoms. She is experiencing paresthesia, weakness, and pain in her upper extremities on the right side more than the left since then. She has been doing physical therapy for her neck pain with some relief. She has noticed a sharp shooting pain and weakness on the left side of her hand while sleeping in the night. She is seeing Doctor X for the same without surgery. The patient has no issues with her bowel movements, lower back or legs. There are no issues with walking or stability."
+63,ROS,Lateral side and back cervical cervical nerve problem with radiculopathy.
+64,PASTSURGICAL,Significant for major trauma surgery.
+65,GENHX,"This is a 19-year-old male who was in a fight.  He punched the other guy in the face with a good punch and then he threw a glass.  It broke the glass and spilled alcohol on him, he has a cut on his right hand that is bleeding badly.  The patient denies any alcohol abuse.  No history of tobacco, alcohol or illicit drugs."
+66,FAM/SOCHX,"The patient is a 49-year-old female who comes in today for a complete physical and review of her local medical history.  She states she has a family history of hay fever, eczema, sinus problems, hives, and rhinitis.  The patient states her skin has been going crazy.  It has been very dry and itchy."
+67,PASTSURGICAL, Unknown.
+68,PASTSURGICAL,"Cholecystectomy, gallbladder removed, negative complications."
+69,ROS,"
+CONSTITUTIONAL: Negative fever and chills. RESPIRATORY: Negative cough and cold symptoms. Negative chest pain and dyspnea. GASTROINTESTINAL: Negative bowel and bladder issues. MUSCULOSKELETAL: Negative pain in neck, head, hands, and feet."
+70,ALLERGY, No known allergies.
+71,GENHX,The patient has had some dizziness with the headaches and dizzinesses. The headaches started about 2 days ago. The symptoms last for a couple of hours. The headaches last for about two hours. No nausea or vomiting. No headaches. No vision changes.
+72,PASTMEDICALHX,"Significant for hypertension, depression, osteoporosis and osteoporosis."
+73,FAM/SOCHX,"The patient is married and lives with his wife.  The patient is a nonsmoker.  He has a 12th grade passing grade and never joined college after that.  Denies any smoking, drinking, or illicit drug use."
+74,GYNHX,"The patient is a 58-year-old female who comes in today because she has been missing her periods and not sexually active.  She has had a hysterectomy, but is not currently on any type of hormonal therapy.  The patient has a history of having both ovaries, and a uterus, and she has a cervix still.  This is the first time she has brought this up in the office.  I asked her if she was on any medications and she said no."
+75,CC,"The patient states that she has been having a lot of pain in her left ear for about three to four days.  She has been taking some antibiotics and it should take care of it.  It is called a serous otitis.  The patient also has a little bit of fluid accumulated in the left middle ear, which has caused infection in her middle ear.  There is no drainage from the left lower ear."
+76,FAM/SOCHX," noncontributory for diabetes, heart disease, stroke, cancer, and high blood pressure."
+77,FAM/SOCHX,"
+            Noncontributory."
+78,FAM/SOCHX,"
+            Patient used to smoke 30 packs of cigarettes per year, but quit years ago."
+79,MEDICATIONS,Loratadine Beclomethasone Nasal Fluticasone and Salmeterol Inhaled Montelukast Cephalexin Hydrocode.
+80,PASTSURGICAL,No past surgeries.
+81,GENHX,"
+The patient is a 58-year-old white female with ongoing right knee pain that has been present for years. She has had two arthroscopies done on the knee in the past. She has not seen improvement with conservative treatment. Imaging shows degenerative changes to the femoral sulcus with complete collapse and wear of the lateral compartment. There is some laxity noted in both sides of the knee with flexion and extension."
+82,EXAM,All systems reviewed and reviewed.
+83,MEDICATIONS,"
+The patient was given Norflex sixty MG, Zofran four MG and morphine sulfate four MG through an IV. The patient felt better after a couple of hours."
+84,CC,"Diarrhea, abdominal pain, vomiting this morning."
+85,FAM/SOCHX,"
+            Noncontributory."
+86,ROS,"
+MENTAL HEALTH: Patient has had thoughts of not wanting to be alive but no plans of hurting himself or others, denies feeling suicidal at the moment, does not have a therapist or psychiatrist, denies chest pain, dyspnea, nausea, vomiting, numbness, weakness, or tingling. Patient has spoken to someone else about these thoughts and is trying to identify triggers."
+87,CC,He has a wound on his left thigh that is not healing and is a little worried.
+88,ALLERGY,None.
+89,GENHX,"The patient is a 17-year-old male complaining of left elbow pain.  The patient states that he was involved in a fight at Juvenile Hall during which he was injured.  He then fell on his left ankle and injured his left elbow during the fall.  Since that time, he has had some left ankle pain but no numbness, tingling, or pain in the medial aspect of his foot.  No shortness of breath, cough, wheezing, or changes in sensation in the extremity."
+90,FAM/SOCHX,Denies the use of alcohol or tobacco.
+91,EXAM,Chest x-ray was unremarkable.
+92,PASTMEDICALHX,"
+            History of migraine."
+93,MEDICATIONS,"
+            The patient is taking Remeron for depression and Ziac for high blood pressure."
+94,FAM/SOCHX,"
+            Patient reviewed his past medical history, family and social history with no changes."
+95,DISPOSITION, Permanent pacemaker placement and removal of temporary internal pacemaker.
+96,ROS,"The patient has been doing well, but yesterday he threw up at night and has been very nauseous.  He has no fever, chills, or weakness.  No chest pain or chest pain.  The patient has not been eating well, and his appetite has been low.  There has been no changes in his urination or bowel habits."
+97,ASSESSMENT,EKG reveals sinus sinus tachycardia (beats faster than normal)
+98,IMMUNIZATIONS,"
+            Up-to-date."
+99,ASSESSMENT,The patient continues on Nexium 40 mg once a day in order to reduce the risk of an upper GI bleed.  The patient also continues on baby aspirin 1 mg b.i.d. and calls me immediately if she notices coffee like grounds in her vomit or bloody stool.  She does not have any history of gastroesophageal reflux disease.
