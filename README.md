@@ -27,4 +27,4 @@
   _(Run each of the mentioned shell scripts in the order shown)_
   1. Run `. ./install.sh` or `source install.sh` 
   2. Run `. ./activate.sh` or `source activate.sh`
-  3. Run `. ./decode_taskA_run1.sh` or `source decode_taskA_run1.sh`
+  3. Run `. ./decode_taskA_run1.sh data/taskA_testset4participants_inputConversations.csv` or `source decode_taskA_run1.sh data/taskA_testset4participants_inputConversations.csv`
