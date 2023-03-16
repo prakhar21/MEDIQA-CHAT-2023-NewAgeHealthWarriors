@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RUN="run1"
-mkdir -p outputs/$RUN
+mkdir -p final_output/$RUN
 mkdir -p intermediate_outputs/$RUN
 
 python3 src/01_taska_classification_traininingandinference.py $1 $RUN
