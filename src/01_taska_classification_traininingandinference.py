@@ -33,7 +33,7 @@ class_weights = class_weight.compute_class_weight('balanced',classes=np.unique(t
 
 train_df = pd.DataFrame(train_data)
 
-model1_args = ClassificationArgs(num_train_epochs=1)
+model1_args = ClassificationArgs(num_train_epochs=10)
 model1_args.overwrite_output_dir = True
 
 model1 = ClassificationModel(
@@ -45,8 +45,6 @@ model1 = ClassificationModel(
     use_cuda=True
 ) 
 model1.train_model(train_df)
-
-#predictions = model1.predict(test_data['text'].tolist())
 
 strong_indicator_words = {
     'GYNHX': ['pregnant', 'miscarriage', 'abortion', 'periods', 'menstrual', 'obstetrician', 'gyneco'],
