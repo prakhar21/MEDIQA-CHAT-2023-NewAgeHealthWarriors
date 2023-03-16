@@ -23,3 +23,15 @@
   3. Run `. ./decode_taskA_run1.sh data/taskA_testset4participants_inputConversations.csv` or `source decode_taskA_run1.sh data/taskA_testset4participants_inputConversations.csv`
   
 _Note: Incase of failure due to GPT-3 API call around length, please re-run it the script again._
+
+## Proposed Approach
+### Section Header Identification
+<p align="center">
+  <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/TaskA-HeaderClassification%20Flow.png" width="750" title="section identification">
+</p>
+
+### Section Header Identification
+<p align="center">
+  <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/summary_flow.png" width="400" title="summary flow">
+  <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/summary_ensemble_internal.png" width="400" title="section summary ensemble internal">
+</p>
