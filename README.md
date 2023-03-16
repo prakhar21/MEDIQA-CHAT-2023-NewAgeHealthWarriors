@@ -13,6 +13,7 @@
     ├── data                  # Folder contatining train/val/test datasets
     ├── LICENSE
     └── README.md
+> Please Note:  The final output for each of run1 and run2 will be store in `final_output` folder. This is because the `outputs` folder is created automatically for storing the model artefacts when the training is done.
 
 ## How to run the task specific code and generate output file?
  > Running Bash Script - For TaskA
