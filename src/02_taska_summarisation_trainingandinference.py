@@ -27,8 +27,6 @@ train_df = pd.DataFrame(
     train_data, columns=["input_text", "target_text"]
 )
 
-print (train_df.head(), test.head())
-
 """# Training & Inference from BART Model 1 (Bart Large)"""
 
 model_args1 = Seq2SeqArgs()
