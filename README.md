@@ -29,7 +29,7 @@ _Note: Incase of failure due to GPT-3 API call for max length, please re-run it 
 ## Proposed Approach
 ### Section Header Identification
 <p align="center">
-  <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/section_header_classification.png" width="750" title="section identification">
+  <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/section_header_classification_flow.png" width="750" title="section identification">
 </p>
 
 ### Section Text Generation
