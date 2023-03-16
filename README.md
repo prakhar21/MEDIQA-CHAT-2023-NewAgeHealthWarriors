@@ -21,3 +21,5 @@
   1. Run `. ./install.sh` or `source install.sh` 
   2. Run `. ./activate.sh` or `source activate.sh`
   3. Run `. ./decode_taskA_run1.sh data/taskA_testset4participants_inputConversations.csv` or `source decode_taskA_run1.sh data/taskA_testset4participants_inputConversations.csv`
+  
+_Note: Incase of failure due to GPT-3 API call around length, please re-run it._
