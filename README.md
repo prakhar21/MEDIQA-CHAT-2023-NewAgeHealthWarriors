@@ -24,7 +24,7 @@
   2. Run `. ./activate.sh` or `source activate.sh`          <sub>_#Will activate the environment_</sub>
   3. Run `. ./decode_taskA_run1.sh data/taskA_testset4participants_inputConversations.csv` or `source decode_taskA_run1.sh data/taskA_testset4participants_inputConversations.csv`     <sub>_#Will execute RUN1 for taskA_</sub>
   
-_Note: Incase of failure due to GPT-3 API call around length, please re-run it the script again._
+_Note: Incase of failure due to GPT-3 API call for max length, please re-run it the script again._
 
 ## Proposed Approach
 ### Section Header Identification
