@@ -11,9 +11,7 @@ classification_df = pd.read_csv(f'intermediate_outputs/{sys.argv[1]}/final_taska
 summarization_df = pd.read_csv(f'intermediate_outputs/{sys.argv[1]}/final_taska_summarization_output_ontest.csv')
 
 new_df = pd.merge(classification_df, summarization_df, on='ID')
-new_df['TestID'] = new_df['ID']
-new_df.drop(['ID'], axis=1, inplace=True)
-
+new_df.rename(columns = {'ID':'TestID'}, inplace = True)
 new_df['SystemOutput2'] = new_df['SystemOutput2'].str.strip()
-new_df.to_csv(f'final_output/{sys.argv[1]}/taskA_NewAgeHealthWarriors_{sys.argv[1]}.csv', index=False)
 
+new_df.to_csv(f'final_output/{sys.argv[1]}/taskA_NewAgeHealthWarriors_{sys.argv[1]}.csv', index=False)
