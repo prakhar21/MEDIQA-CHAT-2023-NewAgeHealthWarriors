@@ -90,7 +90,7 @@ import openai
 
 train_data = pd.read_csv('data/TaskA-TrainingSet.csv')
 test_data = pd.read_csv(sys.argv[1])
-section_header_predictions_test = pd.read_csv('intermediate_outputs/{sys.argv[2]}/final_taska_classification_output_ontest.csv')
+section_header_predictions_test = pd.read_csv(f'intermediate_outputs/{sys.argv[2]}/final_taska_classification_output_ontest.csv')
 
 openai.api_key = "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"
 
