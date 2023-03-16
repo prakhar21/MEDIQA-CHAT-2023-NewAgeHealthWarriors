@@ -30,7 +30,7 @@ _Note: Incase of failure due to GPT-3 API call around length, please re-run it t
   <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/TaskA-HeaderClassification%20Flow.png" width="750" title="section identification">
 </p>
 
-### Section Header Identification
+### Section Text Generation
 <p align="center">
   <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/summary_flow.png" width="500" title="summary flow">
   <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/summary_ensemble_internal.png" width="400" title="section summary ensemble internal">
