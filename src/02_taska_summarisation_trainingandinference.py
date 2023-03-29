@@ -29,7 +29,7 @@ train_df = pd.DataFrame(
 
 """# Training & Inference from BART Model 1 (Bart Large)"""
 def train_and_infer_bart_large(train_df, test):
-    
+    """
     model_args1 = Seq2SeqArgs()
     model_args1.num_train_epochs = 5
     model_args1.no_save = True
@@ -37,7 +37,7 @@ def train_and_infer_bart_large(train_df, test):
     model_args1.overwrite_output_dir = True
     model_args1.evaluate_during_training_verbose = False
     model_args1.num_beams = 5
-    """
+    
     # # Initialize model
     model1 = Seq2SeqModel(
         encoder_decoder_type="bart",
@@ -51,8 +51,7 @@ def train_and_infer_bart_large(train_df, test):
     """
     model1 = Seq2SeqModel(
         encoder_decoder_type="bart",
-        encoder_decoder_name="prakhar2112/sectiontextBART",
-        args=model_args1
+        encoder_decoder_name="prakhar2112/sectiontextBART"
     )
     prediction1_test = model1.predict(test['dialogue'].tolist())
     return prediction1_test
@@ -65,6 +64,7 @@ pickle.dump(prediction1_test, open(f'intermediate_outputs/{sys.argv[2]}/taska_su
 Training & Infernece from BART Model 2 (BioBart Large)
 """
 def train_and_infer_biobart_large(train_df, test):
+    """
     model_args2 = Seq2SeqArgs()
     model_args2.num_train_epochs = 5
     model_args2.no_save = True
@@ -73,7 +73,7 @@ def train_and_infer_biobart_large(train_df, test):
     model_args2.evaluate_during_training_verbose = False
     model_args2.num_beams = 5
 
-    """
+    
     # # Initialize model
     model2 = Seq2SeqModel(
         encoder_decoder_type="bart",
@@ -84,8 +84,7 @@ def train_and_infer_biobart_large(train_df, test):
     """
     model2 = Seq2SeqModel(
         encoder_decoder_type="bart",
-        encoder_decoder_name="prakhar2112/sectiontextBioBART",
-        args=model_args2
+        encoder_decoder_name="prakhar2112/sectiontextBioBART"
     )
     prediction2_test = model2.predict(test['dialogue'].tolist())
     return prediction2_test
