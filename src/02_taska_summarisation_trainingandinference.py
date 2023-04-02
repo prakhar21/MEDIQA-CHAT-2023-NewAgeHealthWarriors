@@ -157,41 +157,78 @@ for i,j in zip(test_data['dialogue'].tolist(), section_header_predictions_test['
   examples = random.choices(Tr[prediction_section],k=3)
 
   kg=""
-  for example in examples:  
-    insert = f"""
-              ###
+  try:
+      for example in examples:  
+        insert = f"""
+                  ###
 
-              Dialogue:
-              {example[0]}
+                  Dialogue:
+                  {example[0]}
 
-              Context: {prediction_section}
+                  Context: {prediction_section}
 
-              The summary of dialogue sequence in the given context is {example[1]}
+                  The summary of dialogue sequence in the given context is {example[1]}
 
-              """
-    kg += insert
-  
-  prompt = f"""
-            Act as a doctor's assistant. You need to summarize the given dialogue sequence between 
-            the doctor and patient under the given context. Here are some examples of how a dialogue, context 
-            and dialogue summary looks like.
+                  """
+        kg += insert
 
-            {kg}
+      prompt = f"""
+                Act as a doctor's assistant. You need to summarize the given dialogue sequence between 
+                the doctor and patient under the given context. Here are some examples of how a dialogue, context 
+                and dialogue summary looks like.
 
-            ###
+                {kg}
 
-            Now, given a dialogue sequence and dialogue context you need to generate 
-            dialogue summary in the similar style as shown above. {coverage_text}
+                ###
 
-            Dialogue:
-            {i}
+                Now, given a dialogue sequence and dialogue context you need to generate 
+                dialogue summary in the similar style as shown above. {coverage_text}
 
-            Context: {prediction_section}
+                Dialogue:
+                {i}
 
-            The summary of dialogue sequence in the given context is
-  """  
-  response = gpt3autofill(prompt)
-  section_text_predictions.append(response.strip())
+                Context: {prediction_section}
+
+                The summary of dialogue sequence in the given context is
+      """  
+      response = gpt3autofill(prompt)
+      section_text_predictions.append(response.strip())
+  except:
+      for example in examples[:2]:  
+        insert = f"""
+                  ###
+
+                  Dialogue:
+                  {example[0]}
+
+                  Context: {prediction_section}
+
+                  The summary of dialogue sequence in the given context is {example[1]}
+
+                  """
+        kg += insert
+
+      prompt = f"""
+                Act as a doctor's assistant. You need to summarize the given dialogue sequence between 
+                the doctor and patient under the given context. Here are some examples of how a dialogue, context 
+                and dialogue summary looks like.
+
+                {kg}
+
+                ###
+
+                Now, given a dialogue sequence and dialogue context you need to generate 
+                dialogue summary in the similar style as shown above. {coverage_text}
+
+                Dialogue:
+                {i}
+
+                Context: {prediction_section}
+
+                The summary of dialogue sequence in the given context is
+      """  
+      response = gpt3autofill(prompt)
+      section_text_predictions.append(response.strip())
   
 pickle.dump(section_text_predictions, open(f'intermediate_outputs/{sys.argv[2]}/taska_summary_gpt3_ontest.pkl', 'wb'))
 
