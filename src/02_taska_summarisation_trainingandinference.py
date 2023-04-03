@@ -106,7 +106,7 @@ def gpt3autofill(p):
     model="text-davinci-003",
     prompt=p,
     temperature=0.6,
-    max_tokens=200,
+    max_tokens=130,
     top_p=1,
     frequency_penalty=0,
     presence_penalty=0
