@@ -156,8 +156,8 @@ for i,j in zip(test_data['dialogue'].tolist(), section_header_predictions_test['
 
   examples = random.choices(Tr[prediction_section],k=3)
 
-  kg=""
   try:
+      kg=""
       for example in examples:  
         insert = f"""
                   ###
@@ -193,8 +193,11 @@ for i,j in zip(test_data['dialogue'].tolist(), section_header_predictions_test['
       """  
       response = gpt3autofill(prompt)
       section_text_predictions.append(response.strip())
-  except:
-      for example in examples[:2]:  
+  except Exception as e:
+      print (e)
+      print ('Re-running by considering on 1 example in few-shot') 
+      kg=""
+      for example in examples[:1]:  
         insert = f"""
                   ###
 
