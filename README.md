@@ -1,4 +1,6 @@
 # MEDIQA-CHAT-2023-NewAgeHealthWarriors
+Currently submitted to ACL-ClinicalNLP 2023.
+
 > Our team (NewAgeHealthWarriors) has worked on Task A[[2]](#2). This readme will help you understand the problem statement, repo structure, how to run the code and generate output file via notebooks and shell script. Please refer to [[1]](#1) for all the shared-tasks.
 
 ## Team Members:
