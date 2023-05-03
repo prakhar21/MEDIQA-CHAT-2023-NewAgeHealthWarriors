@@ -1,5 +1,9 @@
 # MEDIQA-CHAT-2023-NewAgeHealthWarriors
-> Our team (NewAgeHealthWarriors) has worked on Task A. This readme will help you understand the problem statement, repo structure, how to run the code and generate output file via notebooks and shell script.
+> Our team (NewAgeHealthWarriors) has worked on Task A[[2]](#2). This readme will help you understand the problem statement, repo structure, how to run the code and generate output file via notebooks and shell script. Please refer to [[1]](#1) for all the shared-tasks.
+
+## Team Members:
+1. Prakhar Mishra (prakhar.mishra@iiitb.org)
+2. Ravi Theja (ravi.theja@iiitb.org)
 
 ## Tasks
 - **Task A - Short Dialogue2Note Summarization**: generating a section summary (section header and content) associated with the short input conversation. Section header will be one of twenty normalized section labels provided with the training data. 
@@ -26,14 +30,10 @@
   
 _Note: Incase of failure due to GPT-3 API call for max length, please re-run it the script again._
 
-## Proposed Approach
-### Section Header Identification
-<p align="center">
-  <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/section_header_classification_flow.png" width="750" title="section identification">
-</p>
+## References
+<a id="1">[1]</a> 
+Asma Ben Abacha, Wen-wai Yim, Griffin Adams, Meliha Yetisgen, Overview of the MEDIQA-Chat 2023 Shared Tasks on the Summarization and Generation of Doctor-Patient Conversations”. ACL-ClinicalNLP 2023.
 
-### Section Text Generation
-<p align="center">
-  <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/summary_flow.png" width="450" title="summary flow">
-  <img src="https://github.com/prakhar21/MEDIQA-CHAT-2023-NewAgeHealthWarriors/blob/main/img/summary_ensemble_internal.png" width="400" title="section summary ensemble internal">
-</p>
+<a id="2">[2]</a> 
+Asma Ben Abacha, Wen-wai Yim, Yadan Fan, and Thomas Lin, An Empirical Study of Clinical Note Generation from Doctor-Patient Encounters”. Asma Ben Abacha, Wen-wai Yim, Yadan Fan and Thomas Lin. EACL 2023.
+
